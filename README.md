@@ -18,7 +18,7 @@ The solutions are organized by topic to make navigation easy:
 | :--- | :--- | :--- | :--- | :--- |
 | 001 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy 🟢 | [two_sum.py](./Arrays/001_two_sum.py) | Hash Map |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy 🟢 | [contains_duplicate.py](./Arrays/217_contains_duplicate.py) | Hash Set |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy 🟢 | [valid_anagrams.py](./Arrays/242_valid_anagrams.py) | Sorting / Hash Map |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy 🟢 | [valid_anagrams.py](./Arrays/242_valid_anagram.py) | Sorting / Hash Map |
 
 ---
 *“Consistency is the key to mastering algorithms.”*

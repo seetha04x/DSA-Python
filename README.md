@@ -20,9 +20,9 @@ The solutions are organized by topic to make navigation easy:
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [contains_duplicate.py](./Arrays/217_contains_duplicate.py) | Hash Set |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [valid_anagrams.py](./Arrays/242_valid_anagram.py) | Sorting / Hash Map |
 | 049 | [Group Anagram](https://leetcode.com/problems/group-anagrams/) | [group_anagrams.py](./Arrays/049_group_anagrams.py) |  Sorting / Hash Map |
-| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [top_k_frequent.py] | |
-| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [product_of_array.py] | |
-| 125 | [Valid Palindrome](https://leetcode.com/problems/valid_palindrome/) | [valid_palindrome.py] | |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [./Arrays/347_top_k_frequent.py] | |
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [./Arrays/238_product_of_array.py] | |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid_palindrome/) | [./Arrays/125_valid_palindrome.py] | |
 
 ---
 *“Consistency is the key to mastering algorithms.”*

@@ -1,19 +1,29 @@
-#the logic is  to multiply the array of left products and right products
-#a left array is created and using for loop, each position i stores the product of numbers before it (product =product*num[i])
-#for right product, the for loop is reversed and the products are found(product of numbers after it) which are directly multiplied with left array
-#the left array is then returned
-class Solution:
-    def productExceptSelf(self, nums: List[int]) -> List[int]:
-        left=[]
-        product1=1
-        for i in range(len(nums)):
-            left.append(product1) 
-            product1*=nums[i]           
-        product2=1
-        for i in range(len(nums)-1,-1,-1):         
-                left[i]*=product2
-                product2*=nums[i]
+#for soln 1:here the concept is similar to turing machine for plaindrome. the copy of string with only lowercase alphanumeric charachters is created into a list.
+#left is initialised as starting index and right is placed at the end.
+#each charachter is checked for equality and when it evaluates to false, the d=fucntion exits, otherwise the left is incremented and right is decremented 
+#for soln 2: a copy of string is created by only adding lowercase alphanumeric charachters
+#then using slice operator s[::-1] for reversal is used to check for equality btwn the copy of string and original string 
 
-        return left             
-                              
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        s=[ch for ch in s.lower() if ch.isalnum()]
+        left=0
+        right=len(s)-1
+
+        while (left<right):
+            if (s[left]==s[right]):
+                left+=1
+                right-=1
+            else:
+                return False
+        return True            
+                
+        # text=""
+        # s=s.lower()
+        # for ch in s:
+        # 	if (ch.isalnum()):
+        #         text+=ch
+        # return (text==text[::-1])   
+
+
         

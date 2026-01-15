@@ -20,10 +20,10 @@ The solutions are organized by topic to make navigation easy:
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [contains_duplicate.py](./Arrays/217_contains_duplicate.py) | Hash Set |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [valid_anagrams.py](./Arrays/242_valid_anagram.py) | Sorting / Hash Map |
 | 049 | [Group Anagram](https://leetcode.com/problems/group-anagrams/) | [group_anagrams.py](./Arrays/049_group_anagrams.py) |  Sorting / Hash Map |
-| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [top_k_frequent.py](./Arrays/347_top_k_frequent.py) | |
-| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [product_of_array.py](./Arrays/238_product_of_array.py) | |
-| 125 | [Valid Palindrome](https://leetcode.com/problems/valid_palindrome/) | [valid_palindrome.py](./Arrays/125_valid_palindrome.py) | |
-
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [top_k_frequent.py](./Arrays/347_top_k_frequent.py) | Heap Pattern|
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [product_of_array.py](./Arrays/238_product_of_array.py) | Prefix-Suffix Arrays |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid_palindrome/) | [valid_palindrome.py](./Arrays/125_valid_palindrome.py) | Two Pointer Approach |
+| 167 | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [two_sum_ii.py](./Arrays/167_two_sum_ii.py) | Two Pointer Approach  |
 ---
 *“Consistency is the key to mastering algorithms.”*
 
